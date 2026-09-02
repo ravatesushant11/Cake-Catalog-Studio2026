@@ -3,13 +3,7 @@ import { MessageCircle, X } from "lucide-react";
 import { cakeWhatsapp, type Cake } from "@/data/shop";
 import { CakeImage } from "./CakeImage";
 
-export function CakeLightbox({
-  cake,
-  onClose,
-}: {
-  cake: Cake | null;
-  onClose: () => void;
-}) {
+export function CakeLightbox({ cake, onClose }: { cake: Cake | null; onClose: () => void }) {
   useEffect(() => {
     if (!cake) return;
     const onKey = (e: KeyboardEvent) => e.key === "Escape" && onClose();
@@ -55,9 +49,7 @@ export function CakeLightbox({
           <div className="flex flex-col justify-center gap-3 p-6 sm:p-8">
             <p className="eyebrow">{cake.category}</p>
             <h3 className="text-2xl text-charcoal sm:text-3xl">{cake.name}</h3>
-            <p className="text-sm leading-relaxed text-cocoa">
-              {cake.description}
-            </p>
+            <p className="text-sm leading-relaxed text-cocoa">{cake.description}</p>
             <p className="font-display text-lg text-charcoal">
               {cake.price === null ? "Price on WhatsApp" : `₹${cake.price}`}
             </p>
@@ -71,8 +63,7 @@ export function CakeLightbox({
               Order Now
             </a>
             <p className="text-xs text-muted-foreground">
-              100% pure veg · Please order at least 1 day in advance · Home
-              delivery ₹100
+              100% pure veg · Please order at least 1 day in advance · Home delivery ₹100
             </p>
           </div>
         </div>

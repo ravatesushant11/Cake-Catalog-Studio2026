@@ -29,11 +29,7 @@ export function Hero() {
         viewBox="0 0 600 120"
         fill="none"
       >
-        <path
-          d="M0 90C120 20 240 20 300 60s180 40 300-30"
-          stroke="currentColor"
-          strokeWidth="1"
-        />
+        <path d="M0 90C120 20 240 20 300 60s180 40 300-30" stroke="currentColor" strokeWidth="1" />
       </svg>
 
       <div className="relative mx-auto grid max-w-7xl items-center gap-14 px-5 lg:grid-cols-[1.05fr_1fr] lg:gap-16 lg:px-8">
@@ -58,8 +54,8 @@ export function Hero() {
           </h1>
 
           <p className="mx-auto mt-7 max-w-xl text-base leading-relaxed text-cocoa sm:text-lg lg:mx-0">
-            Freshly prepared 100% pure veg cakes for birthdays, anniversaries and
-            every special celebration.
+            Freshly prepared 100% pure veg cakes for birthdays, anniversaries and every special
+            celebration.
           </p>
 
           <span className="mt-6 inline-flex items-center gap-2 rounded-full border border-gold-soft bg-card px-4 py-2 text-[0.68rem] font-semibold tracking-[0.18em] text-veg uppercase shadow-[var(--shadow-soft)]">
