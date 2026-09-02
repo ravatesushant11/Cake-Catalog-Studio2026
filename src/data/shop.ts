@@ -98,7 +98,7 @@ const plan: Array<[string, Category, string]> = [
   ["Chocolate Bar Birthday Cake", "Chocolate Cakes", "A chocolate drip cake decorated with chocolate bars and a birthday topper."],
   ["Red and Pink Butterfly Cake", "Birthday Cakes", "A white celebration cake decorated with pink butterflies and red ribbons."],
   ["Doraemon Theme Cake", "Custom Cakes", "A colourful Doraemon themed cake for a fun celebration."],
-  ["Barbie Doll Cake", "Custom Cakes", "A purple designer cake decorated with a Barbie doll."],
+  ["Pink Butterfly Celebration Cake", "Birthday Cakes", "A pink and white celebration cake with delicate butterfly details."],
   ["Barbie Butterfly Doll Cake", "Custom Cakes", "A lavender rosette cake decorated with butterflies and a Barbie doll."],
   ["Barbie Butterfly Doll Cake", "Custom Cakes", "A lavender rosette cake decorated with butterflies and a Barbie doll."],
   ["Pink Butterfly Celebration Cake", "Birthday Cakes", "A pink and white celebration cake with delicate butterfly details."],
